@@ -1,0 +1,16 @@
+# User constraint file for 4 digit counter on elbert2
+
+# Left Push Switch (SW1) is Clock
+# LEDs D1 to D4 are outputs
+
+NET "Clock" LOC = "P80" | PULLUP | CLOCK_DEDICATED_ROUTE = FALSE;
+
+# NET "QA" LOC = "P55";
+# NET "QB" LOC = "P54";
+# NET "QC" LOC = "P51";
+# NET "QD" LOC = "P50";
+
+NET "Q[0]" LOC = "P55";
+NET "Q[1]" LOC = "P54";
+NET "Q[2]" LOC = "P51";
+NET "Q[3]" LOC = "P50";

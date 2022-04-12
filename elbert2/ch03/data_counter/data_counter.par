@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-PSC-3B632G2::  Mon Apr 11 17:43:33 2022
+PSC-3B632G2::  Tue Apr 12 10:09:49 2022
 
 par -w -intstyle ise -ol high -t 1 data_counter_map.ncd data_counter.ncd
 data_counter.pcf 

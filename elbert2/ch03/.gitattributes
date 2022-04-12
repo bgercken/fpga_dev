@@ -1,0 +1,4 @@
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.bit filter=lfs diff=lfs merge=lfs -text
+*.ngm filter=lfs diff=lfs merge=lfs -text
+*.xbcd filter=lfs diff=lfs merge=lfs -text

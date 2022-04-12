@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-04-11T16:53:00</DateModified>
+  <DateModified>2022-04-12T10:08:58</DateModified>
   <ModuleName>data_counter</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/src/github/bgercken/fpga_dev/elbert2/ch03/data_counter/iseconfig/data_counter.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/src/github/bgercken/fpga_dev/elbert2/ch03/data_counter</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/src/github/bgercken/fpga_dev/elbert2/ch03/data_counter\</ImplementationReportsDirectory>
   <DateInitialized>2022-04-11T16:52:59</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

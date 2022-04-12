@@ -15,3 +15,9 @@ map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o data_cou
 par -w -intstyle ise -ol high -t 1 data_counter_map.ncd data_counter.ncd data_counter.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml data_counter.twx data_counter.ncd -o data_counter.twr data_counter.pcf 
 bitgen -intstyle ise -f data_counter.ut data_counter.ncd 
+xst -intstyle ise -ifn "C:/src/github/bgercken/fpga_dev/elbert2/ch03/data_counter/data_counter.xst" -ofn "C:/src/github/bgercken/fpga_dev/elbert2/ch03/data_counter/data_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/data_counter_elbert2.ucf -p xc3s50a-tq144-4 data_counter.ngc data_counter.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o data_counter_map.ncd data_counter.ngd data_counter.pcf 
+par -w -intstyle ise -ol high -t 1 data_counter_map.ncd data_counter.ncd data_counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml data_counter.twx data_counter.ncd -o data_counter.twr data_counter.pcf 
+bitgen -intstyle ise -f data_counter.ut data_counter.ncd 
