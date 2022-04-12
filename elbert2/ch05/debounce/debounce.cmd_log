@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/src/github/bgercken/fpga_dev/elbert2/ch05/debounce/debounce.xst" -ofn "C:/src/github/bgercken/fpga_dev/elbert2/ch05/debounce/debounce.syr" 
+xst -intstyle ise -ifn "C:/src/github/bgercken/fpga_dev/elbert2/ch05/debounce/debounce.xst" -ofn "C:/src/github/bgercken/fpga_dev/elbert2/ch05/debounce/debounce.syr" 
+xst -intstyle ise -ifn "C:/src/github/bgercken/fpga_dev/elbert2/ch05/debounce/debounce.xst" -ofn "C:/src/github/bgercken/fpga_dev/elbert2/ch05/debounce/debounce.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/elbert2.ucf -p xc3s50a-tq144-4 debounce.ngc debounce.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o debounce_map.ncd debounce.ngd debounce.pcf 
+par -w -intstyle ise -ol high -t 1 debounce_map.ncd debounce.ncd debounce.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml debounce.twx debounce.ncd -o debounce.twr debounce.pcf 
+bitgen -intstyle ise -f debounce.ut debounce.ncd 
+xst -intstyle ise -ifn "C:/src/github/bgercken/fpga_dev/elbert2/ch05/debounce/debounce.xst" -ofn "C:/src/github/bgercken/fpga_dev/elbert2/ch05/debounce/debounce.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/elbert2.ucf -p xc3s50a-tq144-4 debounce.ngc debounce.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o debounce_map.ncd debounce.ngd debounce.pcf 
+par -w -intstyle ise -ol high -t 1 debounce_map.ncd debounce.ncd debounce.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml debounce.twx debounce.ncd -o debounce.twr debounce.pcf 
+bitgen -intstyle ise -f debounce.ut debounce.ncd 
+xst -intstyle ise -ifn "C:/src/github/bgercken/fpga_dev/elbert2/ch05/debounce/debounce.xst" -ofn "C:/src/github/bgercken/fpga_dev/elbert2/ch05/debounce/debounce.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/elbert2.ucf -p xc3s50a-tq144-4 debounce.ngc debounce.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o debounce_map.ncd debounce.ngd debounce.pcf 
+par -w -intstyle ise -ol high -t 1 debounce_map.ncd debounce.ncd debounce.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml debounce.twx debounce.ncd -o debounce.twr debounce.pcf 
+bitgen -intstyle ise -f debounce.ut debounce.ncd 

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-04-12T10:42:50</DateModified>
+  <DateModified>2022-04-12T12:18:20</DateModified>
   <ModuleName>counter</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/src/github/bgercken/fpga_dev/elbert2/ch04/counter_verilog/iseconfig/counter.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/src/github/bgercken/fpga_dev/elbert2/ch04/counter_verilog</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/src/github/bgercken/fpga_dev/elbert2/ch04/counter_verilog\</ImplementationReportsDirectory>
   <DateInitialized>2022-04-12T10:42:50</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

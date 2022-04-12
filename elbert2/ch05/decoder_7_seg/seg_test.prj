@@ -1,0 +1,2 @@
+verilog work "src/decoder_7_seg.v"
+verilog work "src/seg_test.v"

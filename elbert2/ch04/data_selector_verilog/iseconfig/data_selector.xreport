@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-04-12T10:39:06</DateModified>
+  <DateModified>2022-04-12T12:23:26</DateModified>
   <ModuleName>data_selector</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/src/github/bgercken/fpga_dev/elbert2/ch04/data_selector_verilog/iseconfig/data_selector.xreport</SavedFilePath>

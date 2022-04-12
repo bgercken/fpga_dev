@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Apr 12 15:48:25 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led_f" LOCATE = SITE "P48" LEVEL 1;
+COMP "led_a" LOCATE = SITE "P55" LEVEL 1;
+COMP "led_b" LOCATE = SITE "P54" LEVEL 1;
+COMP "switch_a" LOCATE = SITE "P80" LEVEL 1;
+COMP "switch_b" LOCATE = SITE "P79" LEVEL 1;
+COMP "led_c" LOCATE = SITE "P51" LEVEL 1;
+COMP "led_d" LOCATE = SITE "P50" LEVEL 1;
+COMP "CLK" LOCATE = SITE "P129" LEVEL 1;
+COMP "led_e" LOCATE = SITE "P49" LEVEL 1;
+SCHEMATIC END;
+

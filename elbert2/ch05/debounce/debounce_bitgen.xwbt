@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\src\github\bgercken\fpga_dev\elbert2\ch05\debounce\debounce.ncd
+OUTFILE=C:\src\github\bgercken\fpga_dev\elbert2\ch05\debounce\debounce.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-4tq144
+WORKINGDIR=C:\src\github\bgercken\fpga_dev\elbert2\ch05\debounce
+LICENSE=WebPack
+USER_INFO=210713300_1777497331_210595813_224
